@@ -59,4 +59,27 @@ print(my_list)
 
 print("Set", my_set)
 
+# Data type conversion (Type casting): Converting the data type of a value from one to another data type
+# There are two types of Type casting:
+# 1. Implicit : Convertion automatically done by the python
+x = 10
+y = 20.5
+z = x + y
+print(z, type(z)) # 30.5, float
 
+# 2. Explicit : Python doesn't convert automatically, we have to convert manually.
+name = "ABC"
+age = 20
+msg = "My name is " + name + " and age is " + str(age)
+print(msg)
+
+
+# int(x) --> Convert the x into integer
+# float(x) --> Convert the x into float  
+# complex(x) --> convert the x into complex
+# list(x) --> convert x into list
+# tuple(x) --> convert x into tuple
+# str(x) --> convert x into string
+# set(x) --> convert x into set
+# dict(x) --> convert x into dictionary
+# bool(x) --> convert x into boolean
