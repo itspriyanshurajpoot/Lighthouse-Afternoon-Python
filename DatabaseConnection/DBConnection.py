@@ -39,7 +39,11 @@ def selectData():
     query = "select * from employee"
     cursor.execute(query)
     data = cursor.fetchall()
+
+    for row in data:
+        print(f"Employee id is {row[0]}, Name is {row[1]}, Age is {row[2]} and salary is {row[3]}")
+
     print(data)
 
-insertData()
+# insertData()
 selectData()
